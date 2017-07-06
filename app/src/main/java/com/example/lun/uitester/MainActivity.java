@@ -3,9 +3,11 @@ package com.example.lun.uitester;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.provider.MediaStore;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -34,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         radioItalic = (RadioButton) findViewById(R.id.italic);
         radioBoldItalic = (RadioButton) findViewById(R.id.bold_italic);
         btnNext = (Button) findViewById(R.id.btn_next);
-
 
         Switch switchHideAll = (Switch) findViewById(R.id.switch_hide_all);
         switchHideAll.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

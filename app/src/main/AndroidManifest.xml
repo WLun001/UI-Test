@@ -19,7 +19,6 @@
         <activity
             android:name=".SpinnerActivity"
             android:label="@string/title_activity_spinner"
-            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

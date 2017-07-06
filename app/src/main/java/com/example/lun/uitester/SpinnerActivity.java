@@ -1,6 +1,5 @@
 package com.example.lun.uitester;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,10 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.Toast;
-
 import java.util.ArrayList;
-
-import static com.example.lun.uitester.R.id.fab;
 
 public class SpinnerActivity extends AppCompatActivity {
 
@@ -23,7 +19,6 @@ public class SpinnerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_spinner);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         final ArrayList<String> city = new ArrayList<>();
         city.add("London");
@@ -47,7 +42,6 @@ public class SpinnerActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
             }
         });
 
@@ -57,9 +51,7 @@ public class SpinnerActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "---THE END---", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
-
             }
         });
     }
-
 }
