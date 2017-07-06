@@ -4,16 +4,11 @@ import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import static android.R.attr.textSize;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -58,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonCLick(View view){
-        Intent intent = new Intent(this, com.example.lun.uitester.Spinner.class);
+        Intent intent = new Intent(this, SpinnerActivity.class);
         startActivity(intent);
     }
 }
