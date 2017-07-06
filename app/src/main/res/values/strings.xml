@@ -5,4 +5,6 @@
     <string name="radio_bold">Bold</string>
     <string name="radio_italic">Italic</string>
     <string name="radio_bold_italic">Bold Italic</string>
+    <string name="btn_next">Next</string>
+    <string name="title_activity_spinner">Spinner</string>
 </resources>

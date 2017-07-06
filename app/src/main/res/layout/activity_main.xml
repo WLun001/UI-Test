@@ -59,5 +59,13 @@
             android:textSize="20sp" />
     </RadioGroup>
 
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:text="@string/btn_next"
+        android:onClick="onButtonCLick"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>

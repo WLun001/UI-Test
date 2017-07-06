@@ -1,5 +1,6 @@
 package com.example.lun.uitester;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 if(isChecked)
                     textView.setTypeface(null, Typeface.BOLD_ITALIC);
         }
+    }
 
+    public void onButtonCLick(View view){
+        Intent intent = new Intent(this, com.example.lun.uitester.Spinner.class);
+        startActivity(intent);
     }
 }
