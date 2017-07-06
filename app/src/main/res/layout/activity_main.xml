@@ -9,6 +9,7 @@
     tools:context="com.example.lun.uitester.MainActivity">
 
     <Switch
+        android:id="@+id/switch_hide_all"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/switch_hide_all"
@@ -57,7 +58,7 @@
             android:textSize="@dimen/regular_text" />
 
         <RadioButton
-            android:id="@+id/underline"
+            android:id="@+id/bold_italic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onRadioCheck"
