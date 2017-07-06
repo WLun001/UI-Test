@@ -21,7 +21,6 @@
             android:label="@string/title_activity_spinner"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SwitchActivity"></activity>
     </application>
 
 </manifest>
