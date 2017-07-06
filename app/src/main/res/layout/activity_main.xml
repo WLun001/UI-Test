@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.lun.uitester.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/normal_text_size"
+        android:text="@string/text"
+        android:textSize="36sp" />
+
+    <CheckBox
+        android:id="@+id/check_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheck"
+        android:padding="16dp"
+        android:text="@string/check_big"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioCheck"
+            android:padding="16dp"
+            android:text="@string/radio_bold"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioCheck"
+            android:padding="16dp"
+            android:text="@string/radio_italic"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioCheck"
+            android:padding="16dp"
+            android:text="@string/radio_bold_italic"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+
+</LinearLayout>

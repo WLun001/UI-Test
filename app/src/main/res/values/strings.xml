@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UI Tester</string>
+    <string name="text">Hello</string>
+    <string name="check_big">Bigger Font Size</string>
+    <string name="radio_bold">Bold</string>
+    <string name="radio_italic">Italic</string>
+    <string name="radio_bold_italic">Bold Italic</string>
+</resources>
